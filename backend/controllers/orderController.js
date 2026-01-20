@@ -3,6 +3,7 @@ import { Customer } from '../models/Customer.js';
 import redisClient from '../config/redis.js';
 
 // Create Order
+// Also updates customer stats and invalidates cache
 export const createOrder = async (req, res) => {
   try {
     const { customerId, amount } = req.body;
