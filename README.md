@@ -240,7 +240,7 @@ Access frontend at:
 
 ## 👨‍💻 Author
 
-**Shinkhal Sinha**
+**Ayush Rajput**
 
 
 ---
